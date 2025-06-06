@@ -16,7 +16,6 @@ This project analyzes discussions about ChatGPT on the Data Science Stack Exchan
 - [Ethical Considerations](#ethical-considerations)
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
-- [Files and Directory Structure](#files-and-directory-structure)
 - [Visualizations](#visualizations)
 
 ## Project Components
@@ -120,34 +119,9 @@ The analysis is structured as a Jupyter notebook:
 
 ```bash
 # Open the notebook
-jupyter notebook 1.8.ipynb
+jupyter notebook main.ipynb
 ```
 
-Alternatively, you can view the exported HTML report:
-
-```bash
-# Open the HTML report in a browser
-open 1.8.html
-```
-
-## Files and Directory Structure
-
-```
-/
-├── 1.8.ipynb                         # Main Jupyter notebook with analysis
-├── 1.8.qmd                           # Quarto markdown version
-├── merged_df.csv                     # Processed and merged dataset
-├── datascience.stackexchange.com/    # Raw XML data folder
-│   ├── Posts.xml
-│   ├── Comments.xml
-│   └── ...
-├── csv_output/                       # Converted CSV data folder
-│   ├── Posts.csv
-│   ├── Comments.csv
-│   └── ...
-├── *.png                             # Static visualizations
-└── *.html                            # Interactive visualizations
-```
 
 ## Visualizations
 
@@ -162,5 +136,3 @@ The project includes various visualizations:
 - Tag evolution charts
 
 ---
-
-Developed by Hoang Son Pham (Student ID: 223240555) for SIT220 - Task 1.8HD
