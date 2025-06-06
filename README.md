@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project analyzes discussions about ChatGPT on the Data Science Stack Exchange platform. By leveraging natural language processing (NLP), machine learning, and data visualization techniques, the study provides comprehensive insights into how the data science community perceives and interacts with ChatGPT technology.
+![theme](https://github.com/user-attachments/assets/9bdfc694-6cd0-4597-92d1-ca29985e157b)
 
 ## Table of Contents
 
